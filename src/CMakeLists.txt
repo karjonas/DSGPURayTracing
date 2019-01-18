@@ -70,8 +70,8 @@ add_executable(pathtracer ${APPLICATION_SOURCE})
 
 target_link_libraries( pathtracer
     CMU462 ${CMU462_LIBRARIES}
-    glew ${GLEW_LIBRARIES}
-    glfw ${GLFW_LIBRARIES}
+    ${GLEW_LIBRARIES}
+    ${GLFW_LIBRARIES}
     ${OPENGL_LIBRARIES}
     ${FREETYPE_LIBRARIES}
     ${CMAKE_THREADS_INIT}
